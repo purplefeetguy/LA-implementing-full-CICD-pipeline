@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/u770572/Development/Training/LA-implementing-full-CICD-pipeline","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
