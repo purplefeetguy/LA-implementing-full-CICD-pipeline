@@ -7,7 +7,6 @@ yum -y install unzip
 
 wget https://services.gradle.org/distributions/gradle-${GRADLE_VER}-bin.zip
 unzip gradle-${GRADLE_VER}-bin.zip -d /opt/gradle
-ßexport PATH=$PATH:/opt/gradle/gradle-${GRADLE_VER}-bin.zip
-ßEOF
 
-cat >> ~/.bashrc <<EOF
+echo "export PATH=$PATH:/opt/gradle/gradle-${GRADLE_VER}/bin" >> /etc/profile
+
